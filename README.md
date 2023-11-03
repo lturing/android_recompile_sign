@@ -66,7 +66,7 @@ keytool -genkey -v -keystore my.keystore -keyalg RSA -keysize 2048 -validity 100
 /home/spurs/app/sdk_root/build-tools/28.0.2/zipalign -p 4 app-debug-recomplie.apk  app-debug-recomplie_1.apk 
 
 # vertify the alignment
-/home/spurs/app/sdk_root/build-tools/28.0.2/zipalign -c 4 my-aligned.apk
+/home/spurs/app/sdk_root/build-tools/28.0.2/zipalign -c 4 app-debug-recomplie_1.apk
 
 /home/spurs/app/sdk_root/build-tools/28.0.2/apksigner sign --ks-key-alias app --ks my.keystore app-debug-recomplie_1.apk 
 
