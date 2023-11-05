@@ -2,7 +2,8 @@
 # ubuntu(20.04)下反编译安卓apk
 
 ```
-# git clone https:/githu
+# git clone https://github.com/lturing/android_recompile_sign
+cd android_recompile_sign
 
 # 配置apktool
 #从https://github.com/iBotPeaches/Apktool/releases 下载最新的apktool.jar
